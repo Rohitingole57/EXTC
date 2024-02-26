@@ -27,9 +27,9 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb+srv://admin-adesh:Adesh%40729%40S285@cluster0.rd0slvm.mongodb.net/extcDB", {
-  useNewUrlParser: true
-});
+// mongoose.connect("mongodb+srv://admin-adesh:Adesh%40729%40S285@cluster0.rd0slvm.mongodb.net/extcDB", {
+//   useNewUrlParser: true
+// });
 
 const userSchema = new mongoose.Schema({
   username: String,
